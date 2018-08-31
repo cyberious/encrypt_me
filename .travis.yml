@@ -10,10 +10,10 @@ services:
   - postgresql
 
 before_script:
-  - psql -c 'create database encyrpt_me_test;' -U postgres
+  - psql -c 'create database encrypt_me_test;' -U postgres
   - mkdir -p $TRAVIS_BUILD_DIR/public/assets
 
-go_import_path: github.com/cyberious/encyrpt_me
+go_import_path: github.com/cyberious/encrypt_me
 
 install:
   - go get github.com/gobuffalo/buffalo/buffalo

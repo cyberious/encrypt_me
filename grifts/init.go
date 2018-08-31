@@ -1,7 +1,7 @@
 package grifts
 
 import (
-	"github.com/cyberious/encyrpt_me/actions"
+	"github.com/cyberious/encrypt_me/actions"
 	"github.com/gobuffalo/buffalo"
 )
 

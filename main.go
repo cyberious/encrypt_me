@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/cyberious/encyrpt_me/actions"
+	"github.com/cyberious/encrypt_me/actions"
 )
 
 // main is the starting point to your Buffalo application.

@@ -8,7 +8,7 @@ node_modules/
 .sass-cache/
 *-packr.go
 public/assets/
-encyrpt_me
+encrypt_me
 .vscode/
 .grifter/
 .env

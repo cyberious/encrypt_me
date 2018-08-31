@@ -27,7 +27,7 @@ func App() *buffalo.App {
 			PreWares: []buffalo.PreWare{
 				cors.Default().Handler,
 			},
-			SessionName: "_encyrpt_me_session",
+			SessionName: "_encrypt_me_session",
 		})
 		// Automatically redirect to SSL
 		app.Use(forceSSL())

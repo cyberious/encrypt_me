@@ -2,8 +2,8 @@
 # https://docs.docker.com/engine/userguide/eng-image/multistage-build/
 FROM gobuffalo/buffalo:v0.12.4 as builder
 
-RUN mkdir -p $GOPATH/src/github.com/cyberious/encyrpt_me
-WORKDIR $GOPATH/src/github.com/cyberious/encyrpt_me
+RUN mkdir -p $GOPATH/src/github.com/cyberious/encrypt_me
+WORKDIR $GOPATH/src/github.com/cyberious/encrypt_me
 
 ADD . .
 RUN go get $(go list ./... | grep -v /vendor/)
